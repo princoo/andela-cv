@@ -1,0 +1,110 @@
+
+body{
+    margin: 0%;
+    background: #E5E5E5;
+        font-family: 'Arial';
+
+}
+.header{
+    margin: 0% 9.8%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    font-family: 'Arial';
+    font-style: normal;
+}
+.header h3{
+    color: black;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-top: 0px;
+}
+.head{
+    background-image: linear-gradient( rgb(255, 255, 255),rgb(255, 255, 255),rgba(255, 255, 255, 0.95));
+    padding-bottom: 10px;
+    flex-grow: 5;
+    margin-left: 1%;
+}
+.inner{
+    margin-left: 60px;
+}
+.img{
+    padding-bottom: 10px;
+    background-image: linear-gradient( rgb(255, 255, 255),rgb(255, 255, 255),rgba(255, 255, 255, 0.95));
+    flex-grow: 1;
+    margin-right: 20%;
+}
+.image{
+    border-radius: 50%;
+    width: 40%;
+    margin-left: 20%;
+    margin-top: 12px;
+}
+.container{
+    display: flex;
+    background-color: white;
+    margin: 0% 10%;
+}
+.left{
+    background-color: white;
+    flex-grow: 1;
+    margin-right: 20px;
+    margin-top: 20%;
+}
+.right{
+    background-color: white;
+    flex-grow: 1;
+    margin-left: 20px;
+    margin-top: 20%;
+}
+ .first{
+    margin-left: 60px;
+    margin-bottom: 5%;
+ }
+ .sec {
+    color:#73808D;
+    margin-bottom: 15%;
+    margin-left: 15%;
+}
+.sec p{
+    line-height: 30px;
+}
+.left p{
+    line-height: 25px;
+}
+.left .date{
+    color:#73808D;
+    font-size: 13px;
+}
+.left h3{
+    color: rgb(7, 7, 7);
+}
+.category{
+    font-size: 10px;
+    color:#73808D;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+   .container{
+    flex-wrap: wrap;
+   }
+   .header{
+    flex-wrap: wrap-reverse;
+   }
+   .head{
+    margin-right: 20%; 
+    padding-bottom: 10px;
+ }
+   .inner{
+    font-size: 15px;
+    margin-left: 5%;
+    margin-bottom: 0%;
+   }
+   .image{
+    width: 20%;
+    margin-left: 5%;
+   }
+}
+  
